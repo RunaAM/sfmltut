@@ -1,6 +1,5 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/andrei/Desktop/hard/sfmltut'
- 
 g++ -c main.cpp
 g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
 make: Leaving directory '/home/andrei/Desktop/hard/sfmltut'

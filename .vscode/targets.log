@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul  7 21:45:30 2022
+# Make data base, printed on Thu Jul  7 21:51:43 2022
 
 # Variables
 
@@ -107,7 +105,7 @@ XDG_SESSION_DESKTOP = zorin
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 37118
+GIO_LAUNCHED_DESKTOP_FILE_PID = 38291
 # automatic
 %F = $(notdir $%)
 # environment
@@ -161,7 +159,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = zorin
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d12e4046-2efc-4528-9b28-4d1a387818dd.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-300e2b9a-dcae-4c99-b35c-81b1c337095c.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -231,7 +229,7 @@ LC_ADDRESS = ro_RO.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 37118
+VSCODE_PID = 38291
 # variable set hash-table stats:
 # Load=110/1024=11%, Rehash=0, Collisions=16/135=12%
 
@@ -241,9 +239,9 @@ VSCODE_PID = 37118
 
 # Directories
 
-# . (device 2081, inode 6755): 13 files, no impossibilities.
+# . (device 2081, inode 6755): 14 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -281,6 +279,9 @@ shooter.cpp:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 16):
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 	g++ -c 360shooter/360shooter.cpp
 	g++ 360shooter/360shooter.o -o 360shooter/360shooter -lsfml-graphics -lsfml-window -lsfml-system 
 	360shooter/./360shooter
@@ -288,7 +289,6 @@ shooter.cpp:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
- 
 #  Last modified 2022-07-07 21:33:37.730175
 #  File has been updated.
 #  Successfully updated.
@@ -351,12 +351,12 @@ dodger: dodger.cpp Textures/cat.png Textures/doge.png
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 255 B / avg = 10 B
-# current buf: size = 8162 B / used = 255 B / count = 25 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 260 B / avg = 10 B
+# current buf: size = 8162 B / used = 260 B / count = 26 / avg = 10 B
 
-# strcache performance: lookups = 36 / hit rate = 30%
+# strcache performance: lookups = 37 / hit rate = 29%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=1/36=3%
-# Finished Make data base on Thu Jul  7 21:45:30 2022
+# Load=26/8192=0%, Rehash=0, Collisions=1/37=3%
+# Finished Make data base on Thu Jul  7 21:51:43 2022
 
  
